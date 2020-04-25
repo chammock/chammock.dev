@@ -1,4 +1,4 @@
-baseURL = "http://chammock.dev"
+baseURL = "https://chammock.dev"
 title = "Curtis Hammock | Developer"
 
 theme = "hugo-coder"
