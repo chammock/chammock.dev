@@ -24,7 +24,7 @@ custom_js = []
 
 [params]
     author = "Curtis Hammock"
-    info = "Full Stack Security Cloud Developer"
+    info = "Cloud Security Developer"
     description = "Curtis Hammock's developer website"
     keywords = "blog,developer,cloud"
     avatarurl = "images/avatar.jpg"
