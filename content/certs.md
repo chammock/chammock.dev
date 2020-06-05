@@ -4,7 +4,6 @@ slug = "certs"
 +++
 
 ## Amazon Web Services (AWS)
-Listing of completed AWS certifications with links to their digital badges.
 * [Certified Solutions Architect - Professional](https://www.youracclaim.com/badges/57aab318-9800-4745-912f-9e9960ff2eb9/public_url)
 * [Certified Solutions Architect - Associate](https://www.youracclaim.com/badges/8451e386-e81d-4af0-8491-1606448b697f/public_url)
 * [Certified Security - Specialty](https://www.youracclaim.com/badges/f0d899ce-82b5-45cf-92b1-89cfc9dc60d5/public_url)
@@ -14,3 +13,7 @@ Listing of completed AWS certifications with links to their digital badges.
 
 *In Progress*
 * AWS Certified DevOps Engineer - Professional
+
+
+## Hashicorp
+* [Terraform Associate](https://www.youracclaim.com/users/curtishammock)
