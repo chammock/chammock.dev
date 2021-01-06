@@ -21,6 +21,8 @@ custom_css = []
 # Custom JS
 custom_js = []
 
+[markup.goldmark.renderer]
+unsafe= true
 
 [params]
     author = "Curtis Hammock"
@@ -40,6 +42,16 @@ custom_js = []
     rtl = false
 
     math = true
+	certs = [
+		"57aab318-9800-4745-912f-9e9960ff2eb9",
+		"8451e386-e81d-4af0-8491-1606448b697f",
+		"f0d899ce-82b5-45cf-92b1-89cfc9dc60d5",
+		"6b0b5b71-e5ac-499a-9c5f-0c7c865ba763",
+		"607cafba-5178-4bb1-b6c9-945373d93df3",
+		"134da1c6-60ba-4c5b-9e19-f4595c6df5f2",
+		"ba38a5b1-e3c2-4ad6-acbc-53629b025858",
+		"b00222d3-cf35-4255-8739-5041194e8ff6"
+	]
 
 # Social links
 [[params.social]]
@@ -52,6 +64,8 @@ custom_js = []
     icon = "fab fa-linkedin fa-2x"
     weight = 2
     url = "https://www.linkedin.com/in/curtishammock/"
+
+
 
 
 # Menu links
