@@ -1,5 +1,5 @@
 baseURL = "https://chammock.dev"
-title = "Curtis Hammock | Developer"
+title = "Curtis Hammock | Engineer"
 
 theme = "hugo-coder"
 
@@ -26,9 +26,9 @@ unsafe= true
 
 [params]
     author = "Curtis Hammock"
-    info = "Cloud Developer"
-    description = "Curtis Hammock's developer website"
-    keywords = "blog,developer,cloud"
+    info = "Cloud Engineer"
+    description = "Curtis Hammock's website"
+    keywords = "blog,developer,engineer,cloud"
     avatarurl = "images/avatar.jpg"
 
     favicon_32 = "/images/favicon-32x32.png"

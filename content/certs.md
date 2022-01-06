@@ -3,7 +3,7 @@ title = "Certifications"
 slug = "certs"
 +++
 
-https://www.youracclaim.com/users/chammock/badges
+https://www.credly.com/users/chammock/badges
 
 
 {{< certs >}}
