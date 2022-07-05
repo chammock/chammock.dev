@@ -9,11 +9,11 @@ defaultcontentlanguage="en"
 paginate =20
 canonifyurls = true
 
-pygmentsstyle = "bw"
+pygmentsstyle = "dracula"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+# disqusShortname = "yourdiscussshortname"
 
 # Custom CSS
 custom_css = []
