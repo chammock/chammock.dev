@@ -12,6 +12,7 @@ tags = [
 ]
 +++
 
+> **Update 11/11/22** This information was only tested and confirmed on an API Gateway of type `REST`. Unfortunitly, as of today, it was confirmed that this method does not work with API Gateways of type `HTTP`.
 
 As you already know AWS API Gateway has the ability to secure your APIs using [IAM or Custom authorizers](https://docs.aws.amazon.com/apigateway/latest/developerguide/apigateway-control-access-to-api.html). With IAM auth, your caller will create and sign the request using [AWS SigV4](https://docs.aws.amazon.com/general/latest/gr/signing_aws_api_requests.html). AWS then takes and verifies that signature before allowing or denying access to your API Gateway. But what about when your API Gateway is deployed in multiple regions?
 
