@@ -14,8 +14,9 @@ jobs:
           scalr_token: ${{ secrets.SCALR_TOKEN }}
           scalr_workspace: ws-v0o0gjm3bn049ettu
           terraform_output: true
-      - run: ls
-      - run: pwd
+      - name: Checkout
+        uses: actions/checkout@v3.5.3
+      - run: cd terraform
       - run: terraform init
       - run: terraform plan
       - run: echo "${{ steps.plan.outputs.stdout }}"
