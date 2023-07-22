@@ -16,7 +16,7 @@ jobs:
           terraform_output: true
       - name: Checkout
         uses: actions/checkout@v3.5.3
-      - run: cd terraform
+      - run: ls
       - run: terraform init
       - run: terraform plan
       - run: echo "${{ steps.plan.outputs.stdout }}"
