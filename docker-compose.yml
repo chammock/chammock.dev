@@ -1,7 +1,0 @@
-  server:
-    image: klakegg/hugo:ext
-    command: serve
-    volumes:
-      - ".:/src"
-    ports:
-      - "1313:1313"

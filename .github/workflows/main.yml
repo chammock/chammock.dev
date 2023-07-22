@@ -4,6 +4,10 @@ on: [push]
 jobs:
   Plan:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        shell: bash
+        working-directory: terraform
     steps:
       - uses: Scalr/scalr-action@v1
         with:
