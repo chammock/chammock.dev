@@ -8,7 +8,7 @@ jobs:
        run:
          working-directory: terraform
     steps:
-      - uses: Scalr/scalr-action@v1
+      - uses: Scalr/scalr-action@v1.3.3
         with:
           scalr_hostname: "chammock.scalr.io"
           scalr_token: ${{ secrets.SCALR_TOKEN }}
