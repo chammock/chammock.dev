@@ -1,0 +1,24 @@
+# name: Terraform
+# run-name: Terraform
+# on: [push]
+# jobs:
+#   Plan:
+#     runs-on: ubuntu-latest
+#     defaults:
+#        run:
+#          working-directory: terraform
+#     steps:
+#       - uses: Scalr/scalr-action@v1.3.3
+#         with:
+#           scalr_hostname: "chammock.scalr.io"
+#           scalr_token: ${{ secrets.SCALR_TOKEN }}
+#           scalr_workspace: ws-v0o0gjm3bn049ettu
+#           terraform_output: true
+#       - name: Checkout
+#         uses: actions/checkout@v3.5.3
+#       - run: ls
+#       - run: terraform init
+#       - run: terraform plan
+#       - run: echo "${{ steps.plan.outputs.stdout }}"
+#       - run: echo "${{ steps.plan.outputs.stderr }}"
+#       - run: echo "${{ steps.plan.outputs.exitcode }}"
