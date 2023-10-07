@@ -18,7 +18,7 @@ unsafe = true
 author = "Curtis Hammock"
 info = "Cloud Engineer"
 description = "Curtis Hammock's website"
-keywords = "blog,developer,engineer,cloud"
+keywords = "blog,developer,engineer,cloud,aws,azure,gcp"
 avatarurl = "images/avatar.jpg"
 
 favicon_32 = "/images/favicon-32x32.png"
@@ -51,11 +51,10 @@ icon = "fa fa-github fa-2x"
 weight = 1
 url = "https://github.com/chammock/"
 [[params.social]]
-name = "Gitlab"
+name = "Linkedin"
 icon = "fa fa-linkedin fa-2x"
 weight = 2
 url = "https://www.linkedin.com/in/curtishammock/"
-
 
 # Menu links
 [[menu.main]]
@@ -67,7 +66,7 @@ name = "Certs"
 weight = 20
 url = "/certs/"
 [[menu.main]]
-name = "Blog"
+name = "Posts"
 weight = 30
 url = "/posts/"
 [[menu.main]]
