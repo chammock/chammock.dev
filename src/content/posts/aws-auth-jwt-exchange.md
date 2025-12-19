@@ -14,9 +14,9 @@ tags = [
 +++
 
 
-> **Work in Progress**
+The outcome is a demonstration of using an AWS API Gateway, KMS, and Lambda to exchange a Sigv4/Sigv4a signed request for a JSON Web Token (JWT). An exchange for a JWT helps AWS native workloads interact with external services using a common JWT authentication method without the need to manage static credentials. 
 
-This blog post is a work in progress. However, the outcome is a demonstration of using an AWS API Gateway, KMS, and Lambda to exchange a Sigv4/Sigv4a signed request for a JSON Web Token (JWT). An exchange for a JWT helps AWS native workloads interact with external services using a common JWT authentication method without the need to manage static credentials.
+> On Nov 19, 2025 AWS released - [AWS IAM enables identity federation to external services using JSON Web Tokens (JWTs)](https://aws.amazon.com/about-aws/whats-new/2025/11/aws-iam-identity-federation-external-services-jwts/) which could replace the need for a custom JWT exchange mentioned on this page, for certain situations.
 
 
 ## References
